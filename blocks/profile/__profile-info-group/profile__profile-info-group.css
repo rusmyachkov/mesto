@@ -1,4 +1,4 @@
-.profile__profile-info_group {
+.profile__profile-info-group {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .profile__profile-info_group {
+  .profile__profile-info-group {
     gap: 10px;
   }
 }
