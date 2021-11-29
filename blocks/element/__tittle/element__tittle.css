@@ -3,12 +3,7 @@
   font-size: 24px;
   font-weight: 900;
   line-height: 29px;
-  letter-spacing: 0em;
-  margin: 0;
-  max-width: 196px;
-  position: absolute;
-  left: 21px;
-  padding-top: 25px;
+  max-width: calc(100% - 64px);
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;

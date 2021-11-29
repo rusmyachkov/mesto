@@ -7,12 +7,11 @@
   letter-spacing: 0em;
   text-align: left;
   width: 100%;
-  height: 27px;
   margin-bottom: 30px;
   background-image: url(../../../images/form-line.svg);
   background-repeat: repeat-x;
   background-color: transparent;
   background-position: bottom;
   border: none;
-  padding: 0;
+  padding: 0 0 13px 0;
 }
