@@ -4,6 +4,7 @@
   font-weight: 900;
   line-height: 29px;
   max-width: calc(100% - 64px);
+  margin: 25px 0 31px 0;
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;
