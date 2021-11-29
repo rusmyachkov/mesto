@@ -4,11 +4,11 @@
   flex-direction: row;
   gap: 18px;
   align-items: baseline;
-  justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
   .profile__profile-info-group {
     gap: 10px;
+    justify-content: center;
   }
 }
