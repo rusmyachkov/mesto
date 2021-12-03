@@ -4,13 +4,15 @@ const popupElement = document.querySelector('.popup')
 const popupCloseButtonElement = popupElement.querySelector('.popup__close-button')
 
 
-
+/*
 const togglePopupVisibility = function() {
   popupElement.classList.toggle('popup_is-opened')
 }
+*/
 
 const openPopup = function() {
   popupElement.classList.add('popup_is-opened')
+  popupElement.classList.add('popup')
 }
 
 const closePopup = function() {
@@ -23,8 +25,8 @@ const closePopupByClickOnOverlay = function(event) {
     return
   }
 
-  closePopup()
 }
+
 
 popupOpenButtonElement.addEventListener('click', openPopup)
 popupCloseButtonElement.addEventListener('click', closePopup)

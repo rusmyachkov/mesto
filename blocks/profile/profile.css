@@ -7,7 +7,10 @@
 
 @media screen and (max-width: 1024px) {
   .profile {
+    max-width: 100%;
     flex-direction: column;
     margin: 42px 19px 36px 19px;
+    align-items: center;
   }
 }
+

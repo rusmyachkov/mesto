@@ -1,7 +1,6 @@
 .elements {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   justify-content: center;
   max-width: 880px;
   gap: 17px;
@@ -13,7 +12,6 @@
 @media screen and (max-width: 1024px) {
   .elements {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     max-width: calc(100% - (19px * 2));
   }
 }
@@ -21,6 +19,5 @@
 @media screen and (max-width: 768px) {
   .elements {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
   }
 }
