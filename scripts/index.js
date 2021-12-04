@@ -3,6 +3,12 @@ const popupOpenButtonElement = document.querySelector('.profile__edit-button')
 const popupElement = document.querySelector('.popup')
 const popupCloseButtonElement = popupElement.querySelector('.popup__close-button')
 
+let formElement = popupElement.querySelector('.popup__form')
+let nameInput = popupElement.querySelector('.popup__input_type_name')
+let jobInput = popupElement.querySelector('.popup__input_type_job')
+let profileTittle = document.querySelector('.profile__tittle')
+let profileDescription = document.querySelector('.profile__description')
+
 
 /*
 const togglePopupVisibility = function() {
@@ -12,32 +18,35 @@ const togglePopupVisibility = function() {
 
 const openPopup = function() {
   popupElement.classList.add('popup_is-opened')
-  popupElement.classList.add('popup')
+  nameInput.value = profileTittle.textContent
+  jobInput.value = profileDescription.textContent
 }
+
+
 
 const closePopup = function() {
   popupElement.classList.remove('popup_is-opened')
 }
 
-
+/*
 const closePopupByClickOnOverlay = function(event) {
   if(event.target !== event.currentTarget) {
     return
   }
 
 }
+*/
+
 
 
 popupOpenButtonElement.addEventListener('click', openPopup)
 popupCloseButtonElement.addEventListener('click', closePopup)
+/*
 popupElement.addEventListener('click', closePopupByClickOnOverlay)
+*/
 
 
-let formElement = popupElement.querySelector('.popup__form')
-let nameInput = popupElement.querySelector('.popup__input_name')
-let jobInput = popupElement.querySelector('.popup__input_job')
-let profileTittle = document.querySelector('.profile__tittle')
-let profileDescription = document.querySelector('.profile__description')
+
 
 
 
